@@ -8,7 +8,7 @@ st.set_page_config(page_title="Professional Betting Co-Pilot", layout="wide")
 st.title("🚀 Professional Betting Co-Pilot")
 
 # The URL to the raw CSV file in your GitHub repository
-DATA_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/latest_bets.csv"
+DATA_URL = "https://raw.githubusercontent.com/jd0913/betting-model/main/latest_bets.csv"
 
 @st.cache_data(ttl=3600) # Cache the data for 1 hour
 def load_data():
